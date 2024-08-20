@@ -1,0 +1,59 @@
+body {
+    color:white;
+    background:black;
+    margin: 0px;
+    font-family: "chakra", sans-serif;
+    margin-bottom: 100px;
+}
+
+
+header {
+border-bottom: solid 2px rgb(42, 122, 252);
+padding: 20px;
+
+
+}
+
+.chamada{
+background:blue;
+padding-bottom: 100px;
+padding-top: 100px;
+display: flex;
+justify-content: center;
+}
+
+.chamada-texto {
+
+margin-right: 5%;
+
+}
+img{
+    height: 200px
+
+}
+
+.categoria-music{
+display: flex;
+overflow-x: auto;
+gap: 20px;
+}
+
+.categoria {
+padding-left:20px;
+padding-right:20px;
+margin-top: 50px;
+}
+
+.categoria-music img{
+opacity: 0.5;
+
+}
+.categoria-music img:hover {
+opacity: 1.0;
+border: 1px solid mediumseagreen;
+}
+
+.categoria h7 {
+color:rgb(42, 122, 252);
+
+}
